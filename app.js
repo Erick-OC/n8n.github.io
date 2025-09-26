@@ -8,8 +8,8 @@ createChat({
   defaultLanguage: 'es',
   i18n: {
     es: {
-      title: 'Experimento V1 Asistente Virtual MCPPWEB 🤖',
-      subtitle: "Inicia un chat y con gusto te atenderemos las 24 horas del día, los 7 días de la semana.",
+      title: 'Asistente Virtual MCPPWEB 🤖',
+      subtitle: "Experimento V1: Resuelve tus consultas las 24 horas del día, los 7 días de la semana.",
       footer: '',
       getStarted: 'Nueva conversación',
       inputPlaceholder: 'Escribe tu consulta...',

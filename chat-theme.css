@@ -41,12 +41,12 @@
   --chat--header--border-bottom: none;
   --chat--header--border-left: none;
   --chat--header--border-right: none;
-  --chat--heading--font-size: 1.1rem;
+  --chat--heading--font-size: 1.5rem;
   --chat--subtitle--font-size: 0.9rem;
   --chat--subtitle--line-height: 1;
 
   /* Message Styles */
-  --chat--message--font-size: 0.9rem;
+  --chat--message--font-size: 1rem;
   --chat--message--padding: var(--chat--spacing);
   --chat--message--border-radius: var(--chat--border-radius);
   --chat--message-line-height: 1.5;

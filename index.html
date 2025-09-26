@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MCPP WEB – Módulo de Control de Pago de Planillas</title>
+  <link rel="stylesheet" href="styles.css" />
+
+  <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" /> <!-- estilos base del chat -->
+  <link rel="stylesheet" href="chat-theme.css" /> <!-- tu archivo de overrides -->
+
+<body>
+
+  
+
+
+  <!-- HEADER compuesto (logo a la izquierda + 2 franjas a la derecha) -->
+  <header class="header">
+    <!-- Columna izquierda: placa/logo, ocupa la altura de ambas franjas -->
+    <div class="header-brand">
+      <img src="assets/escudo.png" alt="Ministerio de Economía y Finanzas" class="brand-plate" />
+    </div>
+
+    <!-- Franja superior: título centrado + fecha/hora derecha -->
+    <div class="header-top">
+      <h1 class="header-title">MÓDULO DE CONTROL DE PAGO DE PLANILLAS WEB (MCPP WEB)</h1>
+      <div class="header-top-right">
+        <span class="datetime">08/07/2025&nbsp;&nbsp;14:41:28</span>
+      </div>
+    </div>
+
+    <!-- Separador fino -->
+    <div class="header-sep" aria-hidden="true"></div>
+
+    <!-- Franja inferior: usuario + rol + cerrar sesión -->
+    <div class="header-bottom">
+      <div class="header-bottom-left">
+        <span class="user">Usuario : <strong>TarpuyLab MEF</strong></span>
+      </div>
+
+      <div class="header-bottom-center">
+        <label for="rol" class="rol-label">ROL</label>
+        <select id="rol" class="rol" aria-label="Seleccionar rol">
+          <option>Responsable MCPPWEB</option>
+        </select>
+      </div>
+
+      <div class="header-bottom-right">
+        <a href="#" class="logout">CERRAR SESIÓN</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- LAYOUT -->
+  <div class="layout">
+    <!-- SIDEBAR -->
+    <aside class="sidebar" aria-label="Menú principal">
+      <button class="menu-btn" type="button">Registros</button>
+      <button class="menu-btn" type="button">Procesos</button>
+      <button class="menu-btn" type="button">Consultas</button>
+      <button class="menu-btn" type="button">Reportes</button>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="content" role="main" aria-label="Área de trabajo">
+    </main>
+  </div>
+
+
+<script type="module" src="app.js"></script>
+
+</body>
+</html>
